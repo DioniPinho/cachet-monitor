@@ -1,4 +1,4 @@
-FROM monitorbase
+FROM alpine
 
 WORKDIR monitor
 
