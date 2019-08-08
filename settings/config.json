@@ -1,6 +1,6 @@
 {
-  "api_url": "http://172.16.29.82:8000",
-  "api_token": "GUiInxOZeYSLP5Q9KmkF",
+  "api_url": "<status_domain>",
+  "api_token": "<token>",
   "use_schedule": false,
   "interval": 30,
   "retries": 3,
@@ -19,7 +19,7 @@
     {
       "enabled": true,
       "name": "Nginx",
-      "url": "http://172.16.29.82:8083",
+      "url": "https://www.nginx.com",
       "method": "GET",
       "component_id": 2,
       "timeout": 5,
