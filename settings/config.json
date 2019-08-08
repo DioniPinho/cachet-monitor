@@ -1,0 +1,29 @@
+{
+  "api_url": "http://172.16.29.82:8000",
+  "api_token": "GUiInxOZeYSLP5Q9KmkF",
+  "use_schedule": false,
+  "interval": 30,
+  "retries": 3,
+  "monitoring": [
+    {
+      "enabled": true,
+      "name": "Google",
+      "url": "https://google.com",
+      "method": "GET",
+      "component_id": 1,
+      "timeout": 5,
+      "expected_status_code": [
+        200
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Nginx",
+      "url": "http://172.16.29.82:8083",
+      "method": "GET",
+      "component_id": 2,
+      "timeout": 5,
+      "expected_status_code": [200]
+    }
+  ]
+}
